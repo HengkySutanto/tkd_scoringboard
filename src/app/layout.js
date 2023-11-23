@@ -14,8 +14,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <main className="flex min-h-screen flex-col items-center justify-between p-24 pt-10">
-          {children}
+        <main className="container mx-auto min-h-screen pt-10">
+          <div className="py-5">
+            {children}
+          </div>
         </main>
       </body>
     </html>
