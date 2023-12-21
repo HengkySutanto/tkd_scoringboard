@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <main className="container mx-auto min-h-screen pt-10">
+        <main className="container mx-auto min-h-screen pt-10 px-2">
           <div className="py-5">
             {children}
           </div>

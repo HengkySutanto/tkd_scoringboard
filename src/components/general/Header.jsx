@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div className='absolute top-0 w-full h-10 text-white bg-black'>
+    <div className='absolute top-0 w-full h-10 text-white bg-black px-2'>
       <div className="container mx-auto h-full flex justify-between items-center">
         <Link href={`/`} className="logo">Logo</Link>
         <div className="nav space-x-3">
